@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Primary -->
+  <title>Foccus Academia | Saúde e Beleza em Uruaçu - GO</title>
+  <meta name="description" content="Academia Foccus em Uruaçu-GO. Musculação, Muay Thai, Funcional, Dança e Boxe. Planos a partir de R$ 165/mês. 4.6★ no Google com 131 avaliações. Aberto das 5h às 23h." />
+  <meta name="keywords" content="academia Uruaçu, academia Goiás, musculação Uruaçu, muay thai Uruaçu, funcional Uruaçu, academia Foccus, boxe Uruaçu, dança academia, spinning Uruaçu" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.academiafoccus.com.br/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.academiafoccus.com.br/" />
+  <meta property="og:title" content="Foccus Academia | Saúde e Beleza em Uruaçu - GO" />
+  <meta property="og:description" content="Academia moderna em Uruaçu-GO com Muay Thai, Funcional, Musculação, Dança e Boxe. Planos a partir de R$ 165/mês." />
+  <meta property="og:image" content="https://www.academiafoccus.com.br/logo%20foccus.png" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Foccus Academia" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Foccus Academia | Saúde e Beleza em Uruaçu - GO" />
+  <meta name="twitter:description" content="Academia moderna em Uruaçu-GO. Planos a partir de R$ 165/mês." />
+  <meta name="twitter:image" content="https://www.academiafoccus.com.br/logo%20foccus.png" />
+
+  <!-- JSON-LD HealthClub -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthClub",
+    "name": "Academia Foccus",
+    "description": "Academia em Uruaçu-GO com musculação, muay thai, funcional, dança e boxe. Saúde e beleza é o nosso foco.",
+    "image": "https://www.academiafoccus.com.br/logo%20foccus.png",
+    "url": "https://www.academiafoccus.com.br",
+    "telephone": "+5562999945388",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Rio Grande do Sul, Qd 12 - Lt 06 - JK",
+      "addressLocality": "Uruaçu",
+      "addressRegion": "GO",
+      "postalCode": "76400-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "-14.5224",
+      "longitude": "-49.1399"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "05:00",
+      "closes": "23:00"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "bestRating": "5",
+      "reviewCount": "131"
+    },
+    "priceRange": "R$ 165 - R$ 195",
+    "sameAs": ["https://www.instagram.com/academiafoccus/"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <img src="logo foccus.png" alt="Foccus Academia" />
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <canvas class="particles-canvas" id="particlesCanvas" aria-hidden="true"></canvas>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a class="whatsapp-float" href="https://api.whatsapp.com/send/?phone=5562999945388&text=Ol%C3%A1%21+vim+pelo+site+e+quero+saber+mais+sobre+a+Foccus+Academia%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.522 5.854L.06 23.385a.5.5 0 0 0 .611.633l5.701-1.457A11.96 11.96 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.685-.498-5.23-1.37l-.374-.217-3.883.993.996-3.79-.228-.38A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <!-- MODAL AULA EXPERIMENTAL -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+      <div class="modal-header">
+        <img src="logo foccus.png" alt="Foccus Academia" />
+        <div>
+          <h2 id="modalTitle">Aula Experimental</h2>
+          <p>Gratuita e sem compromisso</p>
+        </div>
+      </div>
+      <form id="experimentalForm" novalidate>
+        <div class="form-group">
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name" />
+        </div>
+        <div class="form-group">
+          <label for="telefone">WhatsApp *</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(62) 99999-9999" required autocomplete="tel" />
+        </div>
+        <div class="form-group">
+          <label for="modalidade">Modalidade de interesse *</label>
+          <select id="modalidade" name="modalidade" required>
+            <option value="">Selecione uma modalidade</option>
+            <option value="Musculação">Musculação</option>
+            <option value="Muay Thai">Muay Thai</option>
+            <option value="Funcional">Funcional</option>
+            <option value="Dança">Dança</option>
+            <option value="Boxe">Boxe</option>
+            <option value="Spinning">Spinning</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="turno">Turno preferido</label>
+          <select id="turno" name="turno">
+            <option value="">Qualquer turno</option>
+            <option value="Manhã (5h-12h)">Manhã (5h – 12h)</option>
+            <option value="Tarde (12h-18h)">Tarde (12h – 18h)</option>
+            <option value="Noite (18h-23h)">Noite (18h – 23h)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.522 5.854L.06 23.385a.5.5 0 0 0 .611.633l5.701-1.457A11.96 11.96 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.685-.498-5.23-1.37l-.374-.217-3.883.993.996-3.79-.228-.38A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Agendar pelo WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <img src="logo foccus.png" alt="Logo Foccus Academia" />
+      <div>
+        <strong>FOCCUS</strong>
+        <span>ACADEMIA</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="menu" class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#precos">Preços</a>
+      <a href="#faq">FAQ</a>
+      <button class="menu-cta" id="openModal">Aula Experimental</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero section">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Há mais de 5 anos transformando vidas em Uruaçu</p>
+          <h1>
+            SAÚDE E <span class="text-accent">BELEZA</span><br />
+            É O NOSSO <span class="text-outline">FOCO</span>
+          </h1>
+          <p class="hero-desc">
+            Treinos inteligentes, energia de verdade e uma comunidade que te puxa para cima.
+            Musculação, Muay Thai, Funcional, Dança e Boxe — tudo num só lugar.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" id="openModalHero">Quero minha Aula Grátis</button>
+            <a class="btn btn-ghost btn-lg" href="#modalidades">Ver Modalidades</a>
+          </div>
+          <div class="hero-stats">
+            <article>
+              <strong><span class="counter" data-target="5">0</span>+</strong>
+              <span>Anos de História</span>
+            </article>
+            <article>
+              <strong><span class="counter" data-target="131">0</span></strong>
+              <span>Avaliações Google</span>
+            </article>
+            <article>
+              <strong><span class="counter" data-target="46" data-decimal="1">0</span>★</strong>
+              <span>Nota Média</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="Treino na Academia Foccus em Uruaçu" loading="eager" />
+          <div class="hero-card-overlay">
+            <div class="hero-card-badge">
+              <span>Muay Thai</span>
+              <span>Funcional</span>
+              <span>Musculação</span>
+              <span>Dança</span>
+              <span>Boxe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section about">
+      <div class="container about-grid">
+        <article class="panel reveal">
+          <p class="eyebrow">Nossa história</p>
+          <h2>Quem somos?</h2>
+          <p>
+            Somos uma empresa que atua há mais de 5 anos, com muita dedicação, para proporcionar
+            sempre a melhor experiência para nossos alunos. Com estrutura moderna, equipe preparada
+            e treinos para diferentes perfis, nosso objetivo é simples: te ajudar a construir saúde, autoestima e constância.
+          </p>
+          <p>Não aceitamos Gympass e Totalpass. O foco aqui é atendimento próximo e acompanhamento verdadeiro.</p>
+          <div class="about-tags">
+            <span>Dança</span>
+            <span>Funcional</span>
+            <span>Muay Thai</span>
+            <span>Boxe</span>
+            <span>Musculação</span>
+            <span>Spinning</span>
+          </div>
+        </article>
+        <aside class="panel highlight reveal delay-1">
+          <div class="info-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
+            <div>
+              <strong>Endereço</strong>
+              <p>R. Rio Grande do Sul, Qd 12 - Lt 06 - JK<br />Uruaçu - GO, 76400-000</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+            <div>
+              <strong>Horário de Funcionamento</strong>
+              <p>Segunda a Domingo das 05h às 23h</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+            <div>
+              <strong>Telefone</strong>
+              <a href="tel:+5562999945388">(62) 99994-5388</a>
+            </div>
+          </div>
+          <a class="btn btn-ghost" href="https://waze.com/ul/h6vmj3enrg" target="_blank" rel="noopener noreferrer">Abrir no Waze</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MODALIDADES -->
+    <section id="modalidades" class="section classes">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Para todos os perfis</p>
+          <h2>Modalidades em destaque</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="class-card reveal">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?auto=format&fit=crop&w=900&q=80" alt="Aula de Muay Thai na Academia Foccus Uruaçu" loading="lazy" />
+              <span class="class-badge">Combate</span>
+            </div>
+            <div class="class-info">
+              <h3>Muay Thai</h3>
+              <p>Turmas dinâmicas para condicionamento e técnica.</p>
+              <div class="class-schedule"><span>Terça: 06h e 20h</span><span>Quinta: 20h</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Muay Thai">Quero experimentar</button>
+            </div>
+          </article>
+
+          <article class="class-card reveal delay-1">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?auto=format&fit=crop&w=900&q=80" alt="Aula de Funcional na Academia Foccus" loading="lazy" />
+              <span class="class-badge">Queima Calorias</span>
+            </div>
+            <div class="class-info">
+              <h3>Funcional</h3>
+              <p>Mobilidade, força e queima calórica em uma só aula.</p>
+              <div class="class-schedule"><span>Turmas ao longo do dia</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Funcional">Quero experimentar</button>
+            </div>
+          </article>
+
+          <article class="class-card reveal delay-2">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80" alt="Área de musculação na Academia Foccus" loading="lazy" />
+              <span class="class-badge">Força</span>
+            </div>
+            <div class="class-info">
+              <h3>Musculação</h3>
+              <p>Equipamentos modernos e orientação para todos os níveis.</p>
+              <div class="class-schedule"><span>Acesso completo</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Musculação">Quero experimentar</button>
+            </div>
+          </article>
+
+          <article class="class-card reveal">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Aula de Dança na Academia Foccus" loading="lazy" />
+              <span class="class-badge">Ritmo</span>
+            </div>
+            <div class="class-info">
+              <h3>Dança</h3>
+              <p>Ritmo, expressão corporal e saúde se encontram aqui.</p>
+              <div class="class-schedule"><span>Turmas disponíveis</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Dança">Quero experimentar</button>
+            </div>
+          </article>
+
+          <article class="class-card reveal delay-1">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1555597408-26bc8e548a46?auto=format&fit=crop&w=900&q=80" alt="Aula de Boxe na Academia Foccus" loading="lazy" />
+              <span class="class-badge">Combate</span>
+            </div>
+            <div class="class-info">
+              <h3>Boxe</h3>
+              <p>Técnica, explosão e condicionamento físico de alto nível.</p>
+              <div class="class-schedule"><span>Turmas disponíveis</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Boxe">Quero experimentar</button>
+            </div>
+          </article>
+
+          <article class="class-card reveal delay-2">
+            <div class="class-card-img">
+              <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=900&q=80" alt="Aula de Spinning na Academia Foccus" loading="lazy" />
+              <span class="class-badge">Cardio</span>
+            </div>
+            <div class="class-info">
+              <h3>Spinning</h3>
+              <p>Pedala com a galera e queima tudo em cima da bike.</p>
+              <div class="class-schedule"><span>Grupo VIP disponível</span></div>
+              <button class="btn btn-outline open-modal-class" data-modalidade="Spinning">Quero experimentar</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section id="avaliacoes" class="section reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">O que dizem nossos alunos</p>
+          <h2>Avaliações no Google</h2>
+          <div class="rating-summary">
+            <strong class="rating-big">4.6</strong>
+            <div class="stars" aria-label="4.6 de 5 estrelas"><span>★</span><span>★</span><span>★</span><span>★</span><span class="half-star">★</span></div>
+            <p>131 avaliações</p>
+          </div>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p>"Melhor academia de Uruaçu! Estrutura ótima, professores atenciosos e turmas super animadas. Recomendo muito!"</p>
+            <div class="reviewer"><div class="reviewer-avatar">A</div><span>Aluno Foccus</span></div>
+          </article>
+          <article class="review-card reveal delay-1">
+            <div class="review-stars">★★★★★</div>
+            <p>"Faz 1 ano que treino aqui e a evolução foi incrível. As aulas de muay thai são incríveis e os professores te motivam demais!"</p>
+            <div class="reviewer"><div class="reviewer-avatar">M</div><span>Aluno Foccus</span></div>
+          </article>
+          <article class="review-card reveal delay-2">
+            <div class="review-stars">★★★★★</div>
+            <p>"Ambiente agradável, horário amplo (5h às 23h!) e preço justo. Não consigo imaginar malhar em outro lugar."</p>
+            <div class="reviewer"><div class="reviewer-avatar">C</div><span>Aluno Foccus</span></div>
+          </article>
+        </div>
+        <div class="reviews-cta reveal">
+          <a href="https://www.google.com/maps/search/Academia+Foccus+Uruacu+GO" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Ver todas as avaliações no Google</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREÇOS -->
+    <section id="precos" class="section pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Tabela de preços</p>
+          <h2>Planos e valores</h2>
+          <p class="section-sub">Valor mensal recorrente. Sem taxa de matrícula para novos alunos.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-icon">📅</div>
+            <h3>Plano Mensal</h3>
+            <p class="price">R$ <span>195</span><small>,00/mês</small></p>
+            <ul>
+              <li>✓ Acesso total às modalidades</li>
+              <li>✓ Sem fidelidade longa</li>
+              <li>✓ Ideal para começar agora</li>
+            </ul>
+            <button class="btn btn-outline-accent open-modal-price">Garantir vaga</button>
+          </article>
+          <article class="price-card reveal delay-1 featured">
+            <span class="tag">Mais escolhido</span>
+            <div class="price-icon">📆</div>
+            <h3>Plano Trimestral</h3>
+            <p class="price">R$ <span>180</span><small>,00/mês</small></p>
+            <ul>
+              <li>✓ Melhor custo benefício</li>
+              <li>✓ Evolução consistente</li>
+              <li>✓ Atendimento próximo</li>
+            </ul>
+            <button class="btn btn-primary open-modal-price">Garantir vaga</button>
+          </article>
+          <article class="price-card reveal delay-2">
+            <div class="price-icon">🗓</div>
+            <h3>Plano Semestral</h3>
+            <p class="price">R$ <span>170</span><small>,00/mês</small></p>
+            <ul>
+              <li>✓ Maior economia mensal</li>
+              <li>✓ Planejamento de resultado</li>
+              <li>✓ Compromisso com sua meta</li>
+            </ul>
+            <button class="btn btn-outline-accent open-modal-price">Garantir vaga</button>
+          </article>
+          <article class="price-card reveal delay-3">
+            <div class="price-icon">🏆</div>
+            <h3>Plano Anual</h3>
+            <p class="price">R$ <span>165</span><small>,00/mês</small></p>
+            <ul>
+              <li>✓ Melhor valor da tabela</li>
+              <li>✓ Rotina completa o ano inteiro</li>
+              <li>✓ Performance de verdade</li>
+            </ul>
+            <button class="btn btn-outline-accent open-modal-price">Garantir vaga</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO INLINE -->
+    <section id="experimental" class="section form-section">
+      <div class="container form-wrap reveal">
+        <div class="form-text">
+          <p class="eyebrow">Comece hoje mesmo</p>
+          <h2>Agende sua Aula Experimental</h2>
+          <p>Gratuita e sem compromisso. Venha conhecer a Foccus e sentir a diferença.</p>
+          <ul class="form-benefits">
+            <li>✓ Primeira aula gratuita</li>
+            <li>✓ Atendimento personalizado</li>
+            <li>✓ Estrutura moderna</li>
+            <li>✓ Horário flexível (5h às 23h)</li>
+          </ul>
+        </div>
+        <form id="inlineForm" class="form-card" novalidate>
+          <div class="form-group">
+            <label for="nome2">Nome completo *</label>
+            <input type="text" id="nome2" name="nome2" placeholder="Seu nome completo" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="telefone2">WhatsApp *</label>
+            <input type="tel" id="telefone2" name="telefone2" placeholder="(62) 99999-9999" required autocomplete="tel" />
+          </div>
+          <div class="form-group">
+            <label for="modalidade2">Modalidade de interesse *</label>
+            <select id="modalidade2" name="modalidade2" required>
+              <option value="">Selecione uma modalidade</option>
+              <option value="Musculação">Musculação</option>
+              <option value="Muay Thai">Muay Thai</option>
+              <option value="Funcional">Funcional</option>
+              <option value="Dança">Dança</option>
+              <option value="Boxe">Boxe</option>
+              <option value="Spinning">Spinning</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="turno2">Turno preferido</label>
+            <select id="turno2" name="turno2">
+              <option value="">Qualquer turno</option>
+              <option value="Manhã (5h-12h)">Manhã (5h – 12h)</option>
+              <option value="Tarde (12h-18h)">Tarde (12h – 18h)</option>
+              <option value="Noite (18h-23h)">Noite (18h – 23h)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Agendar pelo WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- LINKS RÁPIDOS -->
+    <section class="section social">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Conecte com a Foccus</p>
+          <h2>Links rápidos</h2>
+        </div>
+        <div class="link-buttons">
+          <a class="link-btn reveal" href="https://api.whatsapp.com/send/?phone=5562999945388&text=Deixe+sua+mensagem+que+logo+responderemos%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <img alt="Fale Conosco" src="https://media.bio.site/sites/b282f8b4-37c9-4f47-b155-6d42874307cb/vHfN9g5e22AZrb84EsrV56.png" loading="lazy" />
+            <span>Fale Conosco</span>
+          </a>
+          <a class="link-btn reveal delay-1" href="https://api.whatsapp.com/send/?phone=5562999945388&text=Deixe+sua+mensagem+que+logo+responderemos%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <img alt="Aula Experimental" src="https://media.bio.site/sites/b282f8b4-37c9-4f47-b155-6d42874307cb/rAzSSyxMxbkafsCgp2jH4X.png" loading="lazy" />
+            <span>Aula Experimental</span>
+          </a>
+          <a class="link-btn reveal delay-2" href="https://waze.com/ul/h6vmj3enrg" target="_blank" rel="noopener noreferrer">
+            <img alt="Waze" src="https://media.bio.site/sites/b282f8b4-37c9-4f47-b155-6d42874307cb/Cx6oTDDgm4GXwNLSk9sX7T.png" loading="lazy" />
+            <span>Waze – Localização</span>
+          </a>
+          <a class="link-btn reveal delay-3" href="https://www.instagram.com/academiafoccus/" target="_blank" rel="noopener noreferrer">
+            <img alt="Instagram" src="https://media.bio.site/sites/b282f8b4-37c9-4f47-b155-6d42874307cb/nB5ZE5DhP36EtJyigjHhrF.png" loading="lazy" />
+            <span>Instagram</span>
+          </a>
+          <a class="link-btn reveal delay-3" href="https://chat.whatsapp.com/DmedZ98DT39HcBtWvILesk" target="_blank" rel="noopener noreferrer">
+            <img alt="Grupo VIP Spinning" src="https://media.bio.site/sites/b282f8b4-37c9-4f47-b155-6d42874307cb/BqkEaRjkKD2Uyq55hEJ6mJ.jpg" loading="lazy" />
+            <span>Grupo VIP Spinning Foccus</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Tire suas dúvidas</p>
+          <h2>Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>A Foccus aceita Gympass ou Totalpass?</summary>
+            <p>Não. A Foccus Academia não aceita Gympass ou Totalpass. Acreditamos que o atendimento personalizado e próximo é o que nos diferencia, e nossos planos têm ótimo custo-benefício.</p>
+          </details>
+          <details class="faq-item reveal delay-1">
+            <summary>Qual o horário de funcionamento?</summary>
+            <p>Estamos abertos de segunda a domingo das 05h às 23h, para você encaixar o treino na sua rotina sem desculpas.</p>
+          </details>
+          <details class="faq-item reveal delay-2">
+            <summary>Como agendar uma aula experimental gratuita?</summary>
+            <p>É simples! Preencha o formulário acima ou clique em "Aula Experimental" para entrar em contato pelo WhatsApp. A primeira aula é gratuita e sem compromisso.</p>
+          </details>
+          <details class="faq-item reveal delay-3">
+            <summary>Posso mudar de modalidade durante o plano?</summary>
+            <p>Sim! Nossos planos dão acesso às diversas modalidades disponíveis. Fale com a equipe para entender as possibilidades do seu plano.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Onde a academia está localizada?</summary>
+            <p>Estamos na R. Rio Grande do Sul, Qd 12 - Lt 06 - JK, Uruaçu - GO, 76400-000. Use o link do Waze para chegar com facilidade!</p>
+          </details>
+          <details class="faq-item reveal delay-1">
+            <summary>Qual a avaliação da Foccus no Google?</summary>
+            <p>A Academia Foccus tem nota 4.6★ com mais de 131 avaliações no Google. Venha fazer parte dessa comunidade!</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="contato" class="section cta">
+      <div class="container cta-box reveal">
+        <p class="eyebrow">Sem desculpa</p>
+        <h2>Sem motivação para malhar?<br />Vem sem motivação mesmo.</h2>
+        <p>A equipe da Foccus está pronta para te receber do jeito que você está e te ajudar a chegar onde quer.</p>
+        <div class="cta-actions">
+          <button class="btn btn-primary btn-lg" id="openModalCta">Agendar Aula Gratuita</button>
+          <a class="btn btn-ghost btn-lg" href="https://www.instagram.com/academiafoccus/" target="_blank" rel="noopener noreferrer">@academiafoccus</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <div class="brand brand-footer">
+        <img src="logo foccus.png" alt="Logo Foccus Academia" />
+        <div><strong>FOCCUS</strong><span>ACADEMIA</span></div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#modalidades">Modalidades</a>
+        <a href="#precos">Preços</a>
+        <a href="#faq">FAQ</a>
+        <a href="#experimental">Aula Experimental</a>
+      </nav>
+      <div class="footer-info">
+        <p>R. Rio Grande do Sul, Qd 12 - Lt 06 - JK, Uruaçu - GO</p>
+        <p>05h às 23h · <a href="tel:+5562999945388">(62) 99994-5388</a></p>
+        <a href="https://www.instagram.com/academiafoccus/" target="_blank" rel="noopener noreferrer">@academiafoccus</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Foccus Academia · Todos os direitos reservados · Uruaçu - GO</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
